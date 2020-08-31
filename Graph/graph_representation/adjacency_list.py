@@ -18,13 +18,15 @@ class Graph:
 
 
 nodes = ["A", "B", "C", "D", "E"]
-edges = [("A", "B"), ("A", "C"), ("A", "D"), ("B", "E"), ("D", "E")]
 
 graph = Graph(nodes)
 graph.print_graph()
-print()
 
-for u,v in edges:
+n = int(input("Enter the number of edges: "))
+
+print("Enter edges:")
+for i in range(n):
+    u, v = input().split()
     graph.add_edge(u, v)
 
 graph.print_graph()
