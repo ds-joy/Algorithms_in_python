@@ -1,6 +1,6 @@
 # Important Graph Algorithms
 
--    Breadth First Search (BFS)
+-    [Breadth First Search (BFS)](./BFS/)
 -    Depth First Search (DFS)
 -    Shortest Path from source to all vertices **Dijkstra**
 -    Shortest Path from every vertex to every other vertex **Floyd Warshall**
