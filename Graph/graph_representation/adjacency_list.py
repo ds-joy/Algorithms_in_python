@@ -17,7 +17,14 @@ class Graph:
             print(node, "-->", self.adj_list[node])
 
 
-nodes = ["A", "B", "C", "D", "E"]
+nodes = []
+no_of_nodes = int(input("Enter the number of nodes: "))
+
+print("Enter the nodes:")
+for i in range(no_of_nodes):
+    nodes.append(input())
+
+
 
 graph = Graph(nodes)
 graph.print_graph()
